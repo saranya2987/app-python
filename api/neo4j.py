@@ -1,3 +1,5 @@
+# Import the neo4j dependency
+from neo4j import GraphDatabase
 from flask import Flask, current_app
 
 # tag::import[]
